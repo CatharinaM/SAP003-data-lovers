@@ -1,5 +1,6 @@
 require("../src/data.js");
 
+
 describe("function sort", () => {
   it("is a function", () => {
     expect(typeof window.data.sort).toBe("function");
